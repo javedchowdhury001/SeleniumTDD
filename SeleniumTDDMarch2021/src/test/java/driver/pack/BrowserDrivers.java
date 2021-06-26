@@ -10,5 +10,10 @@ public class BrowserDrivers {
 		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		return driver;
 	}
-
+	
+	
+  public void closeBrowser() {
+	  System.out.println("CloseBrowser");
+	  
+  }
 }
